@@ -64,7 +64,7 @@ const RentForm = () => {
   doc.save(`Recibo_${nome}_${unidade}_${mes}.pdf`);
     // Optionally, keep backend logic
     try {
-      const response = await fetch('http://localhost:5000/api/rent', {
+      const response = await fetch('https://geracao-de-recibos-de-aluguel.onrender.com/api/rent', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
