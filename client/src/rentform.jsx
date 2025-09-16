@@ -7,7 +7,7 @@ const StyledInput = ({ ...props }) => (
     style={{
       border: '2px solid #CA5010',
       borderRadius: '20px',
-      padding: '6px 10px',
+      padding: '7px 10px',
       outline: 'none',
       fontSize: '1rem',
       marginLeft: '2px',
